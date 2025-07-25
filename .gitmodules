@@ -1,0 +1,14 @@
+[submodule "moose"]
+	path = moose
+	url = https://github.com/idaholab/moose.git
+	branch = master
+	ignore = dirty
+[submodule "SAM"]
+	path = SAM
+	url = https://git-nse.egs.anl.gov/SAM/SAM.git
+	branch = sam-lite
+	ignore = dirty
+[submodule "moltres"]
+	path = moltres
+	url = https://github.com/arfc/moltres.git
+
