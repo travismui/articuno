@@ -18,3 +18,11 @@ Extensions:
         remove: !include ${MOOSE_DIR}/framework/doc/remove.yml
         includes:
             - include
+    MooseDocs.extensions.sqa:
+        active: true
+        categories:
+            articuno: !include ${ROOT_DIR}/doc/sqa_articuno.yml
+            framework: !include ${MOOSE_DIR}/framework/doc/sqa_framework.yml
+        reports: !include ${ROOT_DIR}/doc/sqa_reports.yml
+    MooseDocs.extensions.template:
+        active: true
