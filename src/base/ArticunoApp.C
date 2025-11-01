@@ -137,8 +137,7 @@ ArticunoApp::header() const
   os << std::setw(25) << "  SAM version: " << SAM_REVISION << "\n";
 #endif
   os << "\n";
-  if (getSystemInfo() != NULL)
-    os << getSystemInfo()->getInfo();
+  os << getSystemInfo().getInfo();
 
   os << '\n'
      << "Parallelism:\n"
